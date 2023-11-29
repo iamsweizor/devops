@@ -1,5 +1,5 @@
 node {
      stage ('Build') {
-       mvn clean
+       mvn -version
    }
 }
