@@ -1,6 +1,4 @@
 node {
-
-  stages {
      stage ('Build') {
        steps {
           sh 'mvn -B -DskipTests clean package'
@@ -21,5 +19,5 @@ node {
           sh './jenkins/scripts/deliver.sh'
        }
    }
- }
 }
+
