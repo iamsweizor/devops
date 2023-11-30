@@ -40,8 +40,8 @@
 	</scm>-->
 	
 	<scm>
-		<connection>scm:git:https://iamsweizor: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@github.com/iamsweizor/devops.git</connection>
-		<developerConnection>scm:git:https://iamsweizor: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@github.com/iamsweizor/devops.git</developerConnection>
+		<connection>scm:git:https://github.com/iamsweizor/devops.git</connection>
+		<developerConnection>scm:git:https://github.com/iamsweizor/devops.git</developerConnection>
 		<url>https://github.com/iamsweizor/devops.git</url>
 		<tag>test</tag>
 	</scm>
