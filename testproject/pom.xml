@@ -20,17 +20,17 @@
 	</properties>
 	
 	<distributionManagement>
-	 <repository>
-	  <id>release</id>
-	  <name>releases</name>
-	  <url>https://dearxteam.jfrog.io/artifactory/dearx-libs-release-local</url>
-	</repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0jjqjongol4b-artifactory-primary-0-snapshots</name>
-        <url>https://dearxteam.jfrog.io/artifactory/dearx-libs-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
+		<repository>
+		  <id>release</id>
+		  <name>releases</name>
+		  <url>https://dearxteam.jfrog.io/artifactory/dearx-libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>a0jjqjongol4b-artifactory-primary-0-snapshots</name>
+			<url>https://dearxteam.jfrog.io/artifactory/dearx-libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<!--<scm>
 		<connection>scm:git:git@github.com:iamsweizor/devops.git</connection>
@@ -39,12 +39,12 @@
 		<tag>test</tag>
 	</scm>-->
 	
-	<scm>
+	<!--<scm>
 		<connection>scm:git:https://github.com/iamsweizor/devops.git</connection>
 		<developerConnection>scm:git:https://github.com/iamsweizor/devops.git</developerConnection>
 		<url>https://github.com/iamsweizor/devops.git</url>
 		<tag>test</tag>
-	</scm>
+	</scm>-->
 
 	<dependencies>
 		<dependency>
